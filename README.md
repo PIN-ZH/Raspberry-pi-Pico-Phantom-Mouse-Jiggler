@@ -14,4 +14,5 @@ forever{
         mouse move x -3 y 0
 
         pause 100
+
         }
