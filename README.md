@@ -1,7 +1,7 @@
 # Raspberry-pi-Pico-Phantom-Mouse-Jiggler
 
 
-forever
+forever{
 
         pause 180000/120000
 
@@ -14,3 +14,4 @@ forever
         mouse move x -3 y 0
 
         pause 100
+        }
