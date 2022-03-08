@@ -1,13 +1,16 @@
 # Raspberry-pi-Pico-Phantom-Mouse-Jiggler
 
-pause 180000/120000
 
-repeat 1 times
+forever
 
-mouse move x 3 y 0
+        pause 180000/120000
 
-pause 100
+        repeat 1 times
 
-mouse move x -3 y 0
+        mouse move x 3 y 0
 
-pause 100
+        pause 100
+
+        mouse move x -3 y 0
+
+        pause 100
